@@ -24,7 +24,7 @@ public class DestroyObjects : MonoBehaviour
         }
         else if (transform.position.z < lowBound)
         {
-
+                
             Destroy(gameObject);
         }
         
